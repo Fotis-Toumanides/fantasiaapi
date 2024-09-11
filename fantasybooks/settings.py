@@ -127,11 +127,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = '/covers/'
-STATIC_ROOT ='/home/FotisTouman/fantasiaapi/covers'
-#MEDIA_URL = '/home/FotisTouman/fantasiaapi/covers'
+STATIC_URL = 'covers/'
 
-MEDIA_ROOT = BASE_DIR / 'covers/'
+MEDIA_URL = ''
+
+MEDIA_ROOT = BASE_DIR / ''
 
 STATICFILES_DIRS = [
     BASE_DIR / "covers/",
