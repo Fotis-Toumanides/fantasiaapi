@@ -131,9 +131,6 @@ MEDIA_ROOT = BASE_DIR / 'covers/'  # The directory where the media files are sto
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles/'  # For collected static files
 
-STATICFILES_DIRS = [
-    BASE_DIR / 'covers/',
-]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
