@@ -128,8 +128,8 @@ MEDIA_URL = '/covers/'  # The URL that leads to the media files
 MEDIA_ROOT = BASE_DIR / '/media/covers/'  # The directory where the media files are stored
 
 # Adjust static files setting if needed (this part is optional, but could be useful)
-STATIC_URL = '/covers/'
-STATIC_ROOT = BASE_DIR / 'covers/'  # For collected static files
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'static/'  # For collected static files
 
 
 # Default primary key field type
