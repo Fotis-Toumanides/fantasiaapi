@@ -124,18 +124,17 @@ USE_I18N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/5.0/howto/static-files/
+MEDIA_URL = '/media/'  # The URL that leads to the media files
+MEDIA_ROOT = BASE_DIR / 'covers/'  # The directory where the media files are stored
 
-STATIC_URL = 'covers/'
-
-MEDIA_URL = ''
-
-MEDIA_ROOT = BASE_DIR / ''
+# Adjust static files setting if needed (this part is optional, but could be useful)
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles/'  # For collected static files
 
 STATICFILES_DIRS = [
-    BASE_DIR / "covers/",
+    BASE_DIR / 'static/',
 ]
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
