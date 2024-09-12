@@ -132,7 +132,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles/'  # For collected static files
 
 STATICFILES_DIRS = [
-    BASE_DIR / 'static/',
+    BASE_DIR / 'covers/',
 ]
 
 # Default primary key field type
