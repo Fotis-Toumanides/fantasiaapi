@@ -124,12 +124,12 @@ USE_I18N = True
 USE_TZ = True
 
 
-MEDIA_URL = ''  # The URL that leads to the media files
-MEDIA_ROOT = BASE_DIR / 'covers/'  # The directory where the media files are stored
+ # MEDIA_URL = ''  The URL that leads to the media files
+ # MEDIA_ROOT = BASE_DIR / 'covers/'  # The directory where the media files are stored
 
 # Adjust static files setting if needed (this part is optional, but could be useful)
 STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / 'static/covers/'  # For collected static files
+ # STATIC_ROOT = BASE_DIR / 'static/covers/'  For collected static files
 STATICFILES_DIRS = [
     BASE_DIR / "static/",
 ]
