@@ -124,7 +124,7 @@ USE_I18N = True
 USE_TZ = True
 
 
-MEDIA_URL = '/covers/'  # The URL that leads to the media files
+MEDIA_URL = ''  # The URL that leads to the media files
 MEDIA_ROOT = BASE_DIR / '/media/covers/'  # The directory where the media files are stored
 
 # Adjust static files setting if needed (this part is optional, but could be useful)
