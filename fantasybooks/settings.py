@@ -124,8 +124,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-
- STATIC_URL = 'covers/'
+STATIC_URL = 'covers/'
 
 MEDIA_URL = ''
 
