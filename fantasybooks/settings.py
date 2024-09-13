@@ -125,14 +125,14 @@ USE_I18N = True
 USE_TZ = True
 
 
- # MEDIA_URL = ''  The URL that leads to the media files
- # MEDIA_ROOT = BASE_DIR / 'covers/'  # The directory where the media files are stored
+ STATIC_URL = 'covers/'
 
-# Adjust static files setting if needed (this part is optional, but could be useful)
-STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / 'covers/'  #For collected static files
+MEDIA_URL = ''
+
+MEDIA_ROOT = BASE_DIR / ''
+
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static/"),
+    BASE_DIR / "covers/",
 ]
 
 # Default primary key field type
