@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-*40#dtom3gvbrji&d3h7a*#t_9byx=lap^k#)h+mstzx^syauj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
+#ALLOWED_HOSTS = ['fantasiaapi.onrender.com', '127.0.0.1']
+=======
 ALLOWED_HOSTS = ['fantasiaapi.onrender.com']
+>>>>>>> 4cca99b082022c372b33cfe3a1c4542867932e62
 
 
 # Application definition
@@ -49,6 +53,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -59,7 +64,13 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
+<<<<<<< HEAD
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "https://fantasia-sable.vercel.app"
+=======
     "https://fantasia-sable.vercel.app",
+>>>>>>> 4cca99b082022c372b33cfe3a1c4542867932e62
 ]
 
 ROOT_URLCONF = 'fantasybooks.urls'
@@ -133,6 +144,8 @@ MEDIA_ROOT = BASE_DIR / ''
 STATICFILES_DIRS = [
     BASE_DIR / "covers/",
 ]
+STATIC_ROOT = BASE_DIR / "staticfiles"
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
