@@ -64,13 +64,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-<<<<<<< HEAD
-    "http://localhost:5173",
-    "http://127.0.0.1:5173",
     "https://fantasia-sable.vercel.app"
-=======
-    "https://fantasia-sable.vercel.app",
->>>>>>> 4cca99b082022c372b33cfe3a1c4542867932e62
 ]
 
 ROOT_URLCONF = 'fantasybooks.urls'
