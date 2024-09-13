@@ -26,11 +26,11 @@ SECRET_KEY = 'django-insecure-*40#dtom3gvbrji&d3h7a*#t_9byx=lap^k#)h+mstzx^syauj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD
+
 #ALLOWED_HOSTS = ['fantasiaapi.onrender.com', '127.0.0.1']
-=======
+
 ALLOWED_HOSTS = ['fantasiaapi.onrender.com']
->>>>>>> 4cca99b082022c372b33cfe3a1c4542867932e62
+#>>>>>>> 4cca99b082022c372b33cfe3a1c4542867932e62
 
 
 # Application definition
