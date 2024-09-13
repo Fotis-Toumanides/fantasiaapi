@@ -129,7 +129,7 @@ USE_TZ = True
 
 # Adjust static files setting if needed (this part is optional, but could be useful)
 STATIC_URL = '/static/'
- # STATIC_ROOT = BASE_DIR / 'static/covers/'  For collected static files
+STATIC_ROOT = BASE_DIR / 'static/covers/'  For collected static files
 STATICFILES_DIRS = [
     BASE_DIR / "static/",
 ]
