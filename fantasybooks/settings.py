@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-*40#dtom3gvbrji&d3h7a*#t_9byx=lap^k#)h+mstzx^syauj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['fantasiaapi.onrender.com']
 
