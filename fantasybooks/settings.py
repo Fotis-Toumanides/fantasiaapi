@@ -125,13 +125,13 @@ USE_I18N = True
 
 USE_TZ = True
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 MEDIA_URL = ''
-STATIC_ROOT = BASE_DIR / "staticfiles"
+STATIC_ROOT = BASE_DIR / "covers"
 MEDIA_ROOT = BASE_DIR / ''
 
 STATICFILES_DIRS = [
-   BASE_DIR / "covers",
+   BASE_DIR / "static",
 ]
 
 # STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
