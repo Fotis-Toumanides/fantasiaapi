@@ -126,7 +126,7 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = 'static/'
-MEDIA_URL = 'covers/'
+MEDIA_URL = ''
 STATIC_ROOT = BASE_DIR / "staticfiles"
 MEDIA_ROOT = BASE_DIR / ''
 
